@@ -1,6 +1,7 @@
 import hashlib
 hashtos = input("Give the Hash in Md5 : ")
 path_dictionnary = input("give the link to the dictionnary : ")
+
 def hash_text(text):
     #fonction pour hasher
     hasher = hashlib.md5()
